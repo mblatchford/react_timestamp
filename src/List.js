@@ -9,7 +9,7 @@ const List = (props) => {
                 <li 
                     key={i}
                     >
-                    {timestamp}
+                    {timestamp.toTimeString()}
                 </li> 
                 );
             })}

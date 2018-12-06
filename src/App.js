@@ -14,7 +14,7 @@ class App extends Component {
   _onSubmit = (e) => {
     e.preventDefault();
     // console.log("submit button pressed");
-    const timestamp = Date();
+    const timestamp =  new Date();
     console.log(timestamp);
     this.setState({
         timestamp:[...this.state.timestamp, timestamp ] 
